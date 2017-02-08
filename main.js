@@ -53,19 +53,19 @@ doSomethingCool();
 
 // Please explain your answer.
 //
-// var letter = "x";
-//
-// setTimeout(function(){
-//   letter = "y";
-//   console.log("The letter is", letter);
-// }, 1);
-//
-// letter = "z";
-// console.log("The letter is", letter);
+var letter = "x";
+
+setTimeout(function(){
+  letter = "y";
+  console.log("The letter is", letter);
+}, 1);
+
+letter = "z";
+console.log("The letter is", letter);
 
 // Put your answer below -------------------------
- The logged order is [c].
- Due to the setTimeout on the 'y', 'z' is overriding 'y' due to the stack queue.
+ // The logged order is [c].
+ // Due to the setTimeout on the 'y', 'z' is overriding 'y' due to the stack queue.
 
 // -----------------------------------------------
 
